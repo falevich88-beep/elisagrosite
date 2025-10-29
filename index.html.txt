@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ООО «Элисагро»</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ООО «Элисагро»</h1>
+    <p>Ремонт тракторных и грузовых двигателей с гарантией</p>
+    <nav>
+      <a href="#services">Услуги</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#about">О компании</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="services">
+      <h2>Наши услуги</h2>
+      <ul>
+        <li>Ремонт двигателей</li>
+        <li>Обслуживание трансмиссий</li>
+        <li>Диагностика и замена узлов</li>
+        <li>Выезд к клиенту</li>
+        <li>Гарантия на работы</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Галерея</h2>
+      <p>Фото до и после ремонта:</p>
+      <img src="images/engine_before.jpg" alt="До ремонта">
+      <img src="images/engine_after.jpg" alt="После ремонта">
+    </section>
+
+    <section id="about">
+      <h2>О компании</h2>
+      <p>Мы работаем честно и качественно. Нам доверяют сельскохозяйственные предприятия по всей стране.</p>
+    </section>
+
+    <section id="contacts">
+      <h2>Контакты</h2>
+      <p><strong>Телефон:</strong> +375 29 836-93-28 (Александр)</p>
+      <p><strong>УНП:</strong> 391931941</p>
+      <form>
+        <label>Ваше имя:</label><br>
+        <input type="text"><br>
+        <label>Сообщение:</label><br>
+        <textarea></textarea><br>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© ООО «Элисагро», 2025</p>
+  </footer>
+</body>
+</html>
